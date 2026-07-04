@@ -7,7 +7,7 @@ cask "onigiri" do
   desc "Menu bar app that keeps your Mac awake"
   homepage "https://github.com/joan-chiangwq/on-igiri"
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "Onigiri.app"
 
